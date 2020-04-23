@@ -1,10 +1,4 @@
-test2 = seq(1, 25, 1)
-final_i <- 0
+x <- 1:10
+y <- rnorm(10)
 
-for (i in test2)
-{
-  final_i <- final_i + (i^2)
-  print(final_i)
-}
-print(final_i)
-
+plot(x,y)
